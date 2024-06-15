@@ -1,0 +1,49 @@
+.playlist {
+    border-radius: 2%;
+    width: 600px;
+    height: 900px;
+    overflow-y: scroll;
+    margin: 0 auto;
+    border: 1px white solid;
+    background-color: rgba(21, 52, 72, 0.6);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.playlist input {
+    border: 0;
+    background: transparent;
+    outline: 0;
+    font-size: 22px;
+    font-weight: 700;
+    width: 100%;
+    padding: 0.5rem 0.5rem;
+    color: rgba(223, 208, 184, 0.9);
+    text-align: center;
+}
+
+.playlist hr {
+    color: rgba(223, 208, 184, 0.9);
+}
+
+.button  {
+    border-radius: 10px;
+    width: 130px;
+    background-color: rgba(21, 52, 72, 0.3);
+    color: rgb(223, 208, 184);
+    border: 1px rgb(223, 208, 184) solid;
+    transition: ease-in 0.3s;
+}
+
+.button:hover {
+    background-color: #1DB954;
+    color: white;
+    box-shadow: 1px 3px;
+}
+
+.playlist button {
+    margin: 30px 235px;
+}

@@ -1,0 +1,59 @@
+.track {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.listOfTracks:hover {
+    background-color: rgba(238, 238, 238, 0.1);
+}
+
+#play-button {
+    margin-left: 2rem;
+}
+
+#play-button :hover {
+    color: greenyellow;
+}
+.cover {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 2%;
+}
+
+.track-info {
+    color: rgb(223, 208, 184);
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+}
+
+.track-info p {
+    margin: 0 auto;
+    font-weight: bold;
+    width: 400px;
+}
+
+.track-info span {
+    font-size: 12px;
+}
+
+.track i {
+    color: rgb(223, 208, 184);
+}
+
+#add-button {
+    margin-right: 2rem;
+}
+
+#add-button:hover {
+   color: rgba(6, 208, 1, 0.9)
+}
+
+#remove-button {
+    margin-right: 2rem;
+}
+
+#remove-button:hover {
+    color: red
+}

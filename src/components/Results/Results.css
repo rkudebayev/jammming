@@ -1,0 +1,24 @@
+.results {
+    border-radius: 2%;
+    width: 600px;
+    height: 900px;
+    overflow-y: scroll;
+    margin: 0 auto;
+    border: 1px white solid;
+    background-color: rgba(21, 52, 72, 0.6);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.results h4 {
+    padding: 0.5rem 0.5rem;
+    color: rgba(223, 208, 184, 0.9);
+    text-align: center;
+}
+
+.results hr {
+    color: rgba(223, 208, 184, 0.9);
+}

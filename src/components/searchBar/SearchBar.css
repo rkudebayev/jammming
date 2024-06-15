@@ -1,0 +1,24 @@
+.search-bar {
+    margin-top: 100px;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+
+.search-button {
+    margin-top: 50px;
+    border-radius: 10px;
+    width: 130px;
+    background-color: rgba(21, 52, 72, 0.3);
+    color: rgb(223, 208, 184);
+    border: 1px rgb(223, 208, 184) solid;
+    opacity: 0.5;
+    transition: ease-in 0.3s;
+}
+
+.search-button:hover {
+    opacity: 1;
+    box-shadow: 1px 3px;
+}
