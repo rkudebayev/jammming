@@ -1,7 +1,7 @@
 
 const client_id = process.env.REACT_APP_CLIENT_ID;
 const client_secret = process.env.REACT_APP_CLIENT_SECRET;
-const redirectUri = 'https://super-jammming.netlify.app/'
+const redirectUri = 'https://jammming-add-playlist-to-spotify.netlify.app'
 
 
 let access_token = '';
