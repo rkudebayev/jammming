@@ -42,8 +42,8 @@ function Track({track, onAdd, onRemove, isRemoval, isPlaying, onPlayPreview}) {
           />
           
           <div className='track-info'>
-            <p>{track.name}</p>                    
-            <span> {track.artist} - {track.album} </span>
+            <p className='track-name'>{track.name}</p>                    
+            <span className='artist'>{track.artist}</span>
           </div>
           <div className='add-button'>
             {buttonRender()}

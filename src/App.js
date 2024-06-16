@@ -142,18 +142,11 @@ const playPreview = (id) => {
   };
 
   return (
-    <div className='d-flex flex-column justify-content-evenly' 
-    style={{
-      backgroundColor: "rgba(211, 211, 211, 0.7)",
-      backgroundImage: 'url(./main-pic.jpeg)',
-      backgroundRepeat: 'no-repeat',
-      backgroundSize: 'cover',
-    }}>
+    <div className='body'>
         <Header />
         <Searchbar onSearch={search} />
      
-      <div className="d-flex flex-row justify-content-between"
-            style={{marginTop: '150px'}}>
+      <div className='containers'>
         
          <Results  
          tracks={searchResults}

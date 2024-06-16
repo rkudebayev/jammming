@@ -24,7 +24,7 @@ function Playlist({tracks, onRemove, isPlaying, onPlayPreview, onNameChange, pla
         onPlayPreview={onPlayPreview}
         isPlaying={isPlaying}
       />
-      <button type='button' className='button' onClick={onSave}>Save to Spotify</button>
+      <button type='button' className='button' style={{margin: "0 auto"}} onClick={onSave}>Save to Spotify</button>
     </div>
   )
 }

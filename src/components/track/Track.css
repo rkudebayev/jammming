@@ -57,3 +57,29 @@
 #remove-button:hover {
     color: red
 }
+
+@media screen and (max-width: 600px) {
+     .cover {
+      display: none;
+    }
+
+    .track {
+        font-size: small;
+    }
+
+    .track-info {
+        width: 200px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+   .track {
+       font-size: small;
+   }
+
+   .track-info {
+       width: 300px;
+       margin-left: 0px;
+   }
+}

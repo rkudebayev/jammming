@@ -22,3 +22,9 @@
 .results hr {
     color: rgba(223, 208, 184, 0.9);
 }
+
+@media screen and (max-width: 600px) {
+    .results {
+     width: 90%;
+   }
+  }
